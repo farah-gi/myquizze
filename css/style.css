@@ -1,0 +1,79 @@
+body{
+  background-color:black;
+}
+#close{
+  display:none;
+  
+}
+
+.side-navbar{
+    width:270px;
+    height:100vh;
+    position:fixed;
+     left: -270px;
+    
+    top:0;
+    background-color:black;
+}
+ul li{
+ cursor:pointer;
+  
+}
+.nav-item ul li a{
+    color: white!important;
+    padding:3px;
+}
+
+.nav-icon{
+ display:flex;
+ flex-direction: column;
+justify-content:space-between;
+align-items: center;
+  position:absolute;
+  width:80px;
+  height:100vh;
+top:0;
+right:-80px;
+  background-color:white;
+  border:solid 1px black; 
+ 
+  
+
+}
+.nav-icon .logo{
+width:100%;
+
+
+}
+.meal{
+  cursor: pointer;
+}
+.meal:hover .meal-layer{
+top:0%;
+}
+.meal-layer{
+  width:100%;
+  height:100%;
+  background-color: rgba(210, 194, 194, 0.5);
+  top:100%;
+transition: top  1s; 
+border-radius: 6px;
+}
+
+.alert{
+  width:fit-content;
+}
+#spinner{
+  background-color: balck;
+  width:100%;
+  height:100%;
+  position:fixed;
+ top:0;
+ right:0;
+ left:0;
+ bottom:0;
+ z-index: 10000;
+ display:flex;
+
+
+}
